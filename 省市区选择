@@ -1,0 +1,7 @@
+/**
+     * 业务注解逻辑方法切入点
+     */
+    @Pointcut("@annotation(baseLogAnnotation)")
+    public void baseAnnotationServiceCall(BaseLogAnnotation baseLogAnnotation) {}
+    
+    
